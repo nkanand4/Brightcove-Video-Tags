@@ -11,7 +11,7 @@ CN.brightcove.api = (function($) {
 			command: 'search_videos',
 			page_size: '40',
 			token: function() {
-				return $('select').val();
+				return $('#site-select').val();
 			},
 			page_number:function() {
 				return currentPage;

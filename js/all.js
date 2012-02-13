@@ -33,7 +33,7 @@ jQuery(document).ready(function($) {
 		diff = 100;
 	}
 	
-	$('select').change(function() {
+	$('#site-select').change(function() {
 		if(this.value) {
 			reset();
 			CN.site.code = this.value;
@@ -54,6 +54,6 @@ jQuery(function($) {
 		}
 	}
 	if(allSites) {
-		$(allSites).appendTo($('select'));
+		$(allSites).appendTo($('#site-select'));
 	}
 });

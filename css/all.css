@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+.red {
+    color: #f00;
+}
+#overlay {
+    background: none repeat scroll 0 0 #CCCCCC;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: none;
+}
+.loader {
+    background: url("i/ajax-loader-snake.png") no-repeat scroll 0 0 transparent;
+    height: 136px;
+    left: 48%;
+    position: fixed;
+    top: 36%;
+    width: 136px;
+}
